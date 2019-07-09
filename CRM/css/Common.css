@@ -1,0 +1,259 @@
+﻿body
+{
+    font: normal 14px 'Helvetica' ,Arial, sans-serif;  
+    color: #000;
+    margin: 0 auto;
+}
+h3
+{
+    color: #e76a29;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    position: absolute;
+    top: -7px;
+    
+}
+h2
+{
+    color: #ffffff;
+    font-size: 24px;
+    
+
+}
+.divNewAccount
+{
+    float: left;
+    width: 450px;
+    text-align: center;
+    vertical-align: middle;
+}
+.divLoginAccount
+{
+    float: left;
+    width: 450px;
+    text-align: center;
+    vertical-align: middle;
+}
+.divbtnClient
+{
+    float: left;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+.divbtnExpert
+{
+    float: left;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+.divActivate
+{
+    clear: both;
+    color: #1e457f;
+    text-align: center;
+    width: auto;
+    padding-top: 20px;
+}
+.btnNewAccount
+{
+    background-image: url(../App_Themes/NewAccount.jpg);
+    width: 258px;
+    height: 33px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.btnLoginAccount
+{
+    background-image: url(../App_Themes/LoginAccount.jpg);
+    width: 258px;
+    height: 33px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.btnClient
+{
+    background-image: url(../App_Themes/btnClient.jpg);
+    width: 100px;
+    height: 33px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.btnExpert
+{
+    background-image: url(../App_Themes/btnExpert.jpg);
+    width: 100px;
+    height: 33px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.container
+{
+    float: left;
+    width: 1000px;
+   
+}
+span
+{
+    color: #333333;
+    font-weight: bold;
+}
+/*-------Vignesh-------*/
+
+.divTable
+{
+    width: 980px;
+    border: 0.1em solid #2f4669;
+    box-shadow: 0 0 1px #e76a29;
+    -moz-box-shadow: 0 0 1px #e76a29;
+    -webkit-box-shadow: 0 0 1px #e76a29;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.divContainer
+{
+    width: 980px;
+    border: 0.1em solid #ddd;
+    box-shadow: 0 0 1px #000;
+    -moz-box-shadow: 0 0 1px #000;
+    -webkit-box-shadow: 0 0 1px #000;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.divWorkSpace
+{
+    width: 980px;
+    border: none;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.divRow
+{
+    width: auto;
+    clear: both;
+    padding-bottom: 10px;
+    height: 30px;
+    position: relative;
+}
+
+.divCellLeft
+{
+    float: left;
+    height: 20px;
+    width: 150px;
+    padding-right: 20px;
+    text-align: right;
+    padding-top: 3px;
+}
+
+.divCellRight
+{
+    float: left;
+    width: 250px;
+}
+
+.divCellHeader
+{
+    background: url(../App_Themes/sprite1.jpg) 0px 0px repeat-x;
+    width: 100%; /* width and height of the sprite image you want to display */
+    height: 41px;
+    clear: both;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#container
+{
+    width: 1280px;
+    position: relative;
+}
+.reqStar
+{
+    color: Red;
+}
+.movNext
+{
+    color: Red;
+    font-size: 13px;
+}
+.lnkBtn
+{
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.divCellRight1
+{
+    float: left;
+    width: 450px;
+}
+.drplistSearch
+{
+    width: 250px;
+}
+.divTable1
+{
+    width: 980px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.pnlBorder
+{
+    border: 0.2em solid #2f4669;
+}
+.divCellHeaderMod
+{
+    background: url(../App_Themes/sprite1.jpg) 0px 0px repeat-x;
+    width: 100%; /* width and height of the sprite image you want to display */
+    height: 41px;
+    position: relative;
+    left: 0px;
+    top: -2px;
+    font-family:Verdana;  
+}
+.divPanel
+{
+    padding: 5px;
+}
+div#header
+{
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    z-index: 100;
+    background-color: #F00;
+}
+
+div#footer
+{
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    bottom: 0;
+    background-color: #06F;
+}
+div#content
+{
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 200px;
+}
+.labellink
+{
+    color:Blue;
+    text-decoration: underline;
+    cursor:pointer;
+}

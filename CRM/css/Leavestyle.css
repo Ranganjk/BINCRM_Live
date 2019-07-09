@@ -1,0 +1,167 @@
+﻿body 
+{
+    margin:0px;
+    width:100%;
+    font-family:Verdana;
+    font-size:12px;
+    color:#000000;
+    font-weight:500;
+}
+
+.Container 
+{
+margin:0px;
+width:100%;
+font-family:Verdana;
+height:auto;
+}
+
+.Hdr
+{
+    width:100%;
+    height:auto;
+    background-color:#0e048f;
+    min-height:50px;
+    color:#fff;
+    font-family:Verdana;
+}
+
+.Hdr1
+{
+    font-size:16px;
+    width:60%;
+    height:auto;
+    float:left;
+    font-family:Verdana;
+    padding:10px;
+}
+
+.Hdr2
+{
+    width:36%;
+    height:auto;
+    float:right;
+    font-family:Verdana;
+    padding:10px;
+    direction:rtl;
+    
+}
+.Content
+{
+    width:99%;
+    height:auto;
+    padding:5px;
+    font-family:Verdana;
+}
+.Ftr
+{
+    width:100%;
+    height:auto;
+    margin:0px;
+    color:#fff;
+    position:fixed;
+    font-family:Verdana;
+    bottom:0px;
+    background-color:#0e048f;
+}
+
+.FtrTxt
+{
+    padding:5px;
+    font-family:Verdana;
+}
+
+.DivLogin
+{
+    width:40%;
+    height:auto;
+    margin-top:10%;
+    border:4px solid #4d4646;
+    border-radius:10px;
+    font-family:Verdana;
+}
+.ReqStr
+{
+    color:red;
+}
+.DivAll
+{
+    width:98%;
+    height:auto;
+    margin:0px auto;
+    font-family:Verdana;
+}
+#DivUser
+{
+    width:98%;
+    height:auto;
+    margin:0px auto;
+}
+.DivRight
+{
+    margin:0px auto;
+    width:25%;
+    height:auto;
+    float:right;
+    padding:5px;
+    min-height:200px;
+}
+.DivLeft
+{
+    width:60%;
+    height:auto;
+    float:left;
+    border:1px solid #4d4646;
+    border-radius:5px;
+    min-height:200px;
+    padding:5px;
+}
+.DivLeave
+{
+    width:100%;
+    height:auto;
+    border:1px solid #4d4646;
+    border-radius:5px;
+    margin-top:-5px;
+    min-height:100px;
+    padding:5px;
+}
+.DivHolidays
+{
+    width:100%;
+    height:auto;
+    border:1px solid #4d4646;
+    border-radius:5px;
+    padding:5px;
+}
+.DivLvApp
+{
+    width:100%;
+    height:auto;
+    border:1px solid #4d4646;
+    border-radius:5px;
+    padding:5px;
+}
+.DivLeaveApp
+{
+    width:49%;
+    float:left;
+}
+.DivLvDet
+{
+    width:49%;
+    float:right;
+}
+.DivContent1
+{
+    width:30%;
+    height:auto;
+    float:left;
+    padding:5px;
+}
+.DivContent2
+{
+    width:98%;
+    height:auto;
+    float:left;
+}

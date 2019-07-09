@@ -1,0 +1,204 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+    width:100%;
+    font-family:Verdana;
+    line-height:20px;
+    font-size:12px;
+    background:#ccc;
+    background-color:white;  
+}
+#hd
+{
+    
+    
+   
+}
+#cont
+{
+    
+}
+#footer
+{
+   
+}
+.container
+{
+    margin:0 auto;
+    padding:0 15px;
+    max-width:100%;
+}
+.hd_banner
+{
+    background:blue;
+    color:White;
+    font-size:26px;
+    margin-bottom:10px;
+    padding:10px;
+}
+.txt 
+{
+    color:black;
+    font-size:14px;
+    margin-bottom:10px;
+    padding:10px;
+    background:#FFF;
+    border-radius:8px;
+}
+.f1
+{
+     color:white;
+    font-size:14px;
+    margin-bottom:10px;
+    padding:10px;
+    background:blue;
+    border-radius:8px;
+     margin:0 auto;
+}
+.frm
+{
+    
+  
+   margin:0 auto;
+   max-width:375PX;
+   
+   
+   
+    
+}
+.frm_align
+{
+     width:100%;
+     margin:O AUTO;
+}
+.frm .lbl
+{
+   width:46%;
+   float:left;
+
+   margin:10PX 0;
+   text-align:left;
+   margin-right:5PX;
+   
+  
+    
+}
+.frm .txtbx
+{
+     width:50%;
+     float:right;
+  
+       margin:10PX 0;
+       
+}
+.clear
+{
+    clear:both;
+}
+.outborder
+{
+     color:black;
+    font-size:14px;
+    margin-bottom:10px;
+    padding:10px;
+   background:#FFF;
+    border-radius:8px;
+    border:2px solid blue;
+    
+}
+.buttonCover
+{
+    padding-left:50%;
+    
+    
+}
+
+.fRight{
+    float:right;
+    margin-right:10%;
+    width:100%;
+    text-align:right
+    }
+.fLeft{
+    float:left;
+    margin-left:10%;
+    width:48%;
+    text-align:left;
+    }
+.flcover {
+    width:100%;
+    float:left; 
+}
+
+.lblright
+{
+     width:50%;
+     float:right;
+  
+       margin:10PX 0;
+       
+}
+.userleft {
+    float:left; 
+    margin-left:15px; 
+    
+}
+.dateright{
+    float:right;
+   margin-right:15px; 
+    
+}
+@media (max-width:767px)
+{
+    body 
+{
+    margin:0;
+    padding:0;
+    width:100%;
+    font-family:Calibri;
+    line-height:20px;
+    font-size:12px;
+    background:#ccc;
+    zoom:30%;
+    background-color:white;  
+}
+   .frm .lbl
+{
+   width:100%;
+   display:block;
+   margin:5PX 0;
+   /*zoom:30%;*/
+} 
+.frm .txtbx
+{
+     width:90%;
+     display:block;
+     float:left;
+     
+       
+}
+
+.btnExit
+{
+    width:50%; 
+}
+
+    .dlwidth {
+        width :100%;
+    }
+    .lblmsg1 {
+        width:80%; 
+    }
+    .lblmsg2 {
+        width:80%; 
+    }
+
+.buttonCover
+{
+    padding-left:0%;
+    
+    
+}
+
+}

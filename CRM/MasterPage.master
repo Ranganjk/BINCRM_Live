@@ -1,0 +1,306 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link id="feviconimage" runat="server" rel="shortcut icon" type="image/x-icon" href="~/favicon.ico" />
+    <link id="link2" runat="server" rel="icon" href="~/favicon.ico" type="image/ico" />
+
+    <style type="text/css">
+        .Header_Border {
+            background-color: #008B8B;
+            border-bottom-style: ridge;
+            border-bottom-color: Black;
+            border-bottom-width: thin;
+            border-top-style: ridge;
+            border-top-color: Black;
+            border-top-width: thin;
+        }
+
+        .Font_Header {
+            font-family: Calibri;
+            font-size: 20px;
+            font-weight: bold;
+            color: White;
+        }
+
+        .Font_Header2 {
+            font-family: Calibri;
+            font-size: 12px;
+            font-weight: normal;
+            color: Black;
+        }
+
+        .Font_ByLine {
+            font-family: Calibri;
+            font-size: 15px;
+            font-weight: bold;
+            color: White;
+        }
+
+        .Font_lbl {
+            font-family: Calibri;
+            font-size: 15px;
+            color: #423C3D;
+        }
+
+        .Font_lbl2 {
+            font-family: Calibri;
+            font-size: 15px;
+            color: #00008B;
+        }
+
+        .Font_lbl3 {
+            font-family: Calibri;
+            font-size: 12px;
+            color: #00008B;
+        }
+
+        .Font_Hdr {
+            font-family: Calibri;
+            font-size: 18px;
+            color: #423C3D;
+        }
+
+        .TextBox {
+            width: 250px;
+            height: 18px;
+            font-family: Calibri;
+            font-size: 15px;
+            color: #00008B;
+        }
+
+        .TextBox2 {
+            width: 250px;
+            height: 18px;
+            font-family: Calibri;
+            font-size: 12px;
+            color: #00008B;
+        }
+
+        .CustLbl {
+            width: 250px;
+            height: 18px;
+            font-family: Calibri;
+            font-size: 15px;
+            color: #00008B;
+        }
+
+            .CustLbl:hover {
+                color: White;
+                background-color: #FACC2E;
+            }
+
+        .button {
+            position: relative;
+            display: inline-block;
+            background: #008080;
+            color: White;
+            border-radius: 4px;
+            border: 0;
+            font-size: 1em;
+            box-shadow: 0.125em 0.175em 0 0 rgba(0,0,0,0.125);
+            font-weight: 500;
+            transition: all 0.25s ease-in-out;
+            text-align: center;
+            height: 20px;
+            font-size: 13px;
+            font: normal 13px 'Helvetica',Arial, sans-serif;
+        }
+
+        .MenuLbl {
+            color: Blue;
+            font-family: Calibri;
+            font-size: 15px;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="Header" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server"></asp:ToolkitScriptManager>
+
+
+        <script language="javascript" type="text/javascript">
+            function CheckNumeric(e) {
+
+                if (window.event) // IE 
+                {
+                    if ((e.keyCode < 48 || e.keyCode > 57) & e.keyCode != 8) {
+                        event.returnValue = false;
+                        return false;
+
+                    }
+                }
+                else { // Fire Fox
+                    if ((e.which < 48 || e.which > 57) & e.which != 8) {
+                        e.preventDefault();
+                        return false;
+
+                    }
+                }
+            }
+
+            function isNumberKey(evt) {
+                var charCode = (evt.which) ? evt.which : event.keyCode
+
+                if (charCode == 46) {
+                    var inputValue = $("#inputfield").val()
+                    if (inputValue.indexOf('.') < 1) {
+                        return true;
+                    }
+                    return false;
+                }
+                if (charCode != 46 && charCode > 31 && (charCode < 48 || charCode > 57)) {
+                    return false;
+                }
+                return true;
+            }
+
+
+
+
+
+
+        </script>
+
+        <div style="width: 100%;">
+            <telerik:RadWindow ID="rwCustomerProfile" VisibleOnPageLoad="false" Width="400" Height="300" runat="server" Modal="true">
+                <ContentTemplate>
+                    <div style="vertical-align: middle;">
+
+                        <table style="border: 1px solid; border-color: lightgray; font-family: Verdana; font-size: small; width: 100%; height: 50%; text-align: center;">
+                            <tr align="center" style="border: 1px solid; border-color: lightgray;">
+                                <td align="center" colspan="2" style="border: 1px solid; border-color: lightgray;">
+                                    <asp:Label ID="lblcphead" runat="server" Text="Your profile" CssClass="style2" ForeColor="DarkGreen"
+                                        Font-Bold="true" Font-Names="Verdana" Font-Size="Small"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr style="width: 50%;">
+                                <td style="border: 1px solid; border-color: lightgray;">
+                                    <asp:Label ID="lblName" runat="server" Text="" CssClass="style2" ForeColor="DarkGreen"
+                                        Font-Bold="false" Font-Names="Verdana" Font-Size="X-Small"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid; border-color: lightgray;">
+                                    <asp:Label ID="lblAddr1" runat="server" Text="" CssClass="style2" ForeColor="DarkGreen"
+                                        Font-Bold="false" Font-Names="Verdana" Font-Size="X-Small"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid; border-color: lightgray;">
+                                    <asp:Label ID="lblAddr2" runat="server" Text="" CssClass="style2" ForeColor="DarkGreen"
+                                        Font-Bold="false" Font-Names="Verdana" Font-Size="X-Small"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid; border-color: lightgray;">
+                                    <asp:Label ID="lblCity" runat="server" Text="" CssClass="style2" ForeColor="DarkGreen"
+                                        Font-Bold="false" Font-Names="Verdana" Font-Size="X-Small"></asp:Label>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="border: 1px solid; border-color: lightgray;">
+                                    <asp:Label ID="lblState" runat="server" Text="" CssClass="style2" ForeColor="DarkGreen"
+                                        Font-Bold="false" Font-Names="Verdana" Font-Size="X-Small"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid; border-color: lightgray;">
+                                    <asp:Label ID="lblPostCode" runat="server" Text="" CssClass="style2" ForeColor="DarkGreen"
+                                        Font-Bold="false" Font-Names="Verdana" Font-Size="X-Small"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid; border-color: lightgray;">
+                                    <asp:Label ID="lblDesig" runat="server" Text="" CssClass="style2" ForeColor="DarkGreen"
+                                        Font-Bold="false" Font-Names="Verdana" Font-Size="X-Small"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid; border-color: lightgray;">
+                                    <asp:Label ID="lblEmail" runat="server" Text="" CssClass="style2" ForeColor="DarkGreen"
+                                        Font-Bold="false" Font-Names="Verdana" Font-Size="X-Small"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid; border-color: lightgray;">
+                                    <asp:Label ID="lblPhone" runat="server" Text="" CssClass="style2" ForeColor="DarkGreen"
+                                        Font-Bold="false" Font-Names="Verdana" Font-Size="X-Small"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" colspan="2" style="border: 1px solid; border-color: lightgray;">
+                                    <asp:Button ID="btnCPClose" runat="server" Text="Close" CssClass="Button" Width="120px" Font-Size="X-Small" Font-Names="Verdana"
+                                        OnClick="btnCPClose_Click" ToolTip="Click to return back" />
+                                </td>
+                            </tr>
+                        </table>
+
+                    </div>
+                </ContentTemplate>
+            </telerik:RadWindow>
+        </div>
+
+        <div style="height: 100%; width: 100%; background-color: #F0F0F0; border-top-style: ridge; border-top-width: thin; border-bottom-style: ridge; border-bottom-width: thin">
+            <br />
+            <div style="height: 50px; width: 100%; background-color: #5c90c4;">
+
+                <table style="height: 50px;">
+                    <tr>
+                        <td style="width: 10px"></td>
+                        <td style="width: 300px">
+                            <asp:Label ID="Label1" runat="server" Text="" CssClass="Font_Header"></asp:Label><br />
+                            <asp:Label ID="Label4" runat="server" Text="" CssClass="Font_ByLine"></asp:Label>
+                        </td>
+                        <td style="text-align: center; width: 350px; font-size: x-large">
+                            <asp:Label ID="Label2" runat="server" Text="" CssClass="Font_Header" Width="550px"></asp:Label>
+                        </td>
+                        <td style="text-align: right; width: 450px; font-size: x-large">
+                            <asp:Label ID="Label3" runat="server" Text="" CssClass="Font_Header"></asp:Label>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+            <table>
+                <tr>
+                    <td style="width: 700px">
+                        <asp:Label ID="lbllastlogin" runat="server" CssClass="Font_Header2"></asp:Label>
+                    </td>
+                    <td style="width: 220px">
+                        <asp:Label ID="lblDate" runat="server" Text="" CssClass="Font_Header2"></asp:Label>
+                    </td>
+                    <td style="width: 50px"></td>
+                    <td style="width: 300px">
+                        <asp:LinkButton ID="lbMore" runat="server" CssClass="Font_Header2" ForeColor=" #00008B"
+                            Text="" Font-Bold="False" Font-Underline="false" ToolTip="" OnClick="lbMore_Click"></asp:LinkButton>
+                    </td>
+                    <td style="width: 50px"></td>
+                    <td style="width: 100px">
+                        <asp:LinkButton ID="lbSignOut" runat="server" CssClass="Font_Header2" ForeColor=" #00008B" Visible="false"
+                            Text="Sign Out" Font-Bold="False" Font-Underline="false" ToolTip=" Click here to exit from the present session. Make sure you have saved your work."
+                            OnClick="lblSignOut_Click"></asp:LinkButton>
+                    </td>
+                </tr>
+            </table>
+
+            <div style="height: 480PX; width: 100%; background-color: White;">
+                <asp:ContentPlaceHolder ID="Content" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

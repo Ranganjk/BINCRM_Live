@@ -1,0 +1,112 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HomeMST.master.cs" Inherits="AppTheme_HomeMST" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Login - BinCRM</title>
+    <link id="feviconimage" runat="server" rel="shortcut icon" type="image/x-icon" href="~/favicon.ico" />
+    <link id="link2" runat="server" rel="icon" href="~/favicon.ico" type="image/ico" />
+
+    <link href="~/cssLogin/Home.css" rel="stylesheet" />
+    <link href="../cssLogin/Menuline.css" rel="stylesheet" />
+    <link href="../cssLogin/ButtonSp.css" rel="stylesheet" />
+    <style type="text/css">
+        .Font_Header2 {
+            font-family: Verdana;
+            font-size: 5px;
+            font-weight: normal;
+            color: Black;
+        }
+
+        .veralign {
+            vertical-align: central;
+        }
+    </style>
+   
+    <asp:ContentPlaceHolder ID="Header" runat="server">        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+      
+
+        <div class="container">
+            <div id="hdBox">
+                <div class="logo">
+                    <table>
+                        <tr>
+                            <td>
+                                <p style="font-size: 25px; color: white; margin-top: 13px;">&nbsp;&nbsp;<asp:Label ID="lblproductname" runat="server" Text=""></asp:Label></p>
+                            </td>
+                            <td>
+                                <p style="font-size: 20px; color: white; margin-top: 13px; margin-left: 100px; ">
+                                    <asp:Label ID="lblcmpname" runat="server" Text="Test" Width="450px"></asp:Label>
+                                </p>
+                            </td>
+                            <td>
+                                <p style="font-size: 20px; color: white; margin-top: 13px; margin-left: 300px;">
+                                    <asp:Label ID="lblversion" runat="server" Text="Test1"></asp:Label>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="font-size: 10px; color: white; margin-top: -15px; margin-left: 20px;">Stay Connected. Win More</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="dvHead" runat="server">
+                <table style="width: 100%;">
+                    <tr style="width: 100%;">
+                        <td align="left">
+                            <asp:Label ID="lbllastlogin" runat="server" CssClass="Font_Header2"></asp:Label>
+                        </td>
+                        <td align="center">
+                            <asp:Label ID="lbMore" runat="server" CssClass="Font_Header2"></asp:Label>
+                        </td>
+                        <td style="font-family: Verdana; font-size: small; text-align: right;">
+                            <asp:LinkButton ID="lbtnFeedback" runat="server" Text="Feedback" CssClass="Font_Header2" Font-Underline="false" ToolTip="Click here to submit your feedback" OnClick="lbtnFeedback_Click"></asp:LinkButton>
+                        </td>
+                        <td style="width: 3%;" align="Right">
+                            <asp:ImageButton ID="ImageButton1" OnClick="btnExit_Click" runat="server" ImageUrl="~/Images/quit.png" ToolTip="Click here to exit from the present session. Make sure you have saved your work." />
+                        </td>
+                        <td style="width: 5%; vertical-align: central; align-content: center;" align="Right">
+                            <asp:LinkButton ID="lbSignOut" CssClass="veralign" Font-Underline="false" PostBackUrl="~/Login.aspx" ToolTip="Click here to exit from the present session. Make sure you have saved your work." Height="10px" Font-Bold="true" Font-Size="Small" Text="Sign Out" ForeColor="DarkBlue" runat="server" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="conte">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            
+            <div id="footer" style="width: 100%;">
+                <div class="foottxt" style="width: 100%;">
+                    <div  style="width: 100%;">
+                     <a style="text-decoration: none; color: white;"  target="_blank" runat="server" id="CompanyUrl"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         
+                         <a style="text-decoration: none; color: white;"  target="_blank" runat="server" id="DeveloperUrl"></a>
+                        </div>
+                    
+                </div>
+                
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

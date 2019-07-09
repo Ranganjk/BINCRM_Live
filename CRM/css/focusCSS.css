@@ -1,0 +1,10 @@
+﻿
+  input[type=text], textarea
+        {
+            border: 1px solid #ccc;
+        }
+        input[type=text]:focus, textarea:focus,select:focus
+        {
+            background-color: #FFFF99;
+            border: 1px solid #ccc;
+        }

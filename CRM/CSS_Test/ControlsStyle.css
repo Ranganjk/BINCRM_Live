@@ -1,0 +1,225 @@
+﻿.HdrLabel
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: #293371;
+    text-align: center;
+}
+.LblStyle
+{
+    text-align: center;
+}
+.lblparagraph
+{
+    font-weight: normal;
+}
+.ErrorMsg
+{
+    text-align: center;
+}
+
+.button_example
+{
+    border: 1px solid #1e242d;
+    -webkit-box-shadow: #FEFFFF 1px 1px 1px 1px;
+    -moz-box-shadow: #FEFFFF 1px 1px 1px 1px;
+    box-shadow: #FEFFFF 1px 1px 1px 1px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height: 25px;
+    text-decoration: none;
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #3093C7;
+    background: url(../App_Themes/sprite1.jpg) 0px 0px repeat-x;
+    cursor: pointer;
+}
+
+.button_example:hover
+{
+    background-color: #d46429;
+    cursor: pointer;
+}
+.button_home
+{
+    border: 1px solid #1e242d;
+    -webkit-box-shadow: #FEFFFF 1px 1px 1px 1px;
+    -moz-box-shadow: #FEFFFF 1px 1px 1px 1px;
+    box-shadow: #FEFFFF 1px 1px 1px 1px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height: 25px;
+    text-decoration: none;
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #324a6f;
+    background: url(../App_Themes/sprite1.jpg) 0px 0px repeat-x;
+    cursor: pointer;
+}
+
+.button_home:hover
+{
+    background-color: #d46429;
+    cursor: pointer;
+}
+.LinkImgStyle
+{
+    cursor: pointer;
+}
+.HdrLink
+{
+    font-size: 12px;
+    color: Black;
+    text-decoration: none;
+}
+.HdrLink:hover
+{
+    font-size: 12px;
+    color: Orange;
+    cursor: pointer;
+}
+.FtrLink
+{
+    font-size: 11px;
+    color: Gray;
+    text-decoration: none;
+}
+.FtrLink:hover
+{
+    font-size: 11px;
+    color: Orange;
+    cursor: pointer;
+}
+.FileUploadStyle
+{
+    text-align: left;
+}
+.LblBold
+{
+    text-align: left;
+    font-weight: bold;
+}
+.button_green
+{
+    border: 1px solid #FFFFFF;
+    -webkit-box-shadow: #FEFFFF 0px 1px 3px inset;
+    -moz-box-shadow: #FEFFFF 0px 1px 3px inset;
+    box-shadow: #FEFFFF 0px 1px 3px inset;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-shadow: 0px 1px 0 rgba(255,255,255,0.5);
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #4ba614;
+    background-image: linear-gradient(to bottom, #4ba614, #008c00);
+}
+
+.button_green:hover
+{
+    border: 1px solid #FFFFFF;
+    background-color: #36780f;
+    background-image: linear-gradient(to bottom, #36780f, #005900);
+}
+.gridheader
+{
+    background-image: url("../App_Themes/bg-header.png");
+    background-repeat: repeat-x;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.smallgridheader
+{
+    background-image: url("../App_Themes/bg-header.png");
+    background-repeat: repeat-x;
+    height: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.gridpaging
+{
+    background-image: url("../App_Themes/bg-footer.png");
+    background-repeat: repeat-x;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid gray;
+}
+.gridrow
+{
+    height: 50px;
+    text-align: left;
+}
+.smalllabel
+{
+    text-align: left;
+}
+.paragraphStyle
+{
+    text-align: left;
+    line-height: 20px;
+    padding-top: 0px;
+    font-weight: normal;
+}
+.HideColumn
+{
+    display: none;
+}
+.MsgBox
+{
+    font-family: "Verdana";
+    font-size: 62.5%;
+}
+.LblLeftStyle
+{
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+}
+.txtBox
+{
+    border: 1px solid #b4b3b3;
+    width: 250px;
+    height: 20px;
+    font: normal 14px 'Helvetica' ,Arial, sans-serif;
+}
+.txtBox:focus
+{
+    border: 1px solid orange;
+}
+
+
+.rowSpacing
+{
+    padding-bottom: 500px;
+}
+
+.smallgridheader
+{
+    background-image: url("../App_Themes/bg-header.png");
+    background-repeat: repeat-x;
+    height: 35px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.smallgridrow
+{
+    height: 25px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+    height: 35px;
+}
+.pagerStyle
+{
+    color: #06338B;
+    font-weight: bold;
+    font-size: 12px;
+}
+

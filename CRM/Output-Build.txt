@@ -1,0 +1,60 @@
+﻿------ Build started: Project: CRM, Configuration: Debug Any CPU ------
+Warning: Unable to update auto-refresh reference 'telerik.web.ui.dll'. Cannot find assembly 'C:\Program Files (x86)\Telerik\RadControls for ASP.NET AJAX Q1 2011\Bin40\Telerik.Web.UI.dll'.
+Warning: Unable to update auto-refresh reference 'itextsharp.dll'. Cannot find assembly 'C:\CustomPrint\CustomPrint\CustomPrint\bin\itextsharp.dll'.
+Warning: Unable to update auto-refresh reference 'daypilot.monthpicker.dll'. Cannot find assembly 'D:\Projects\BINCRM_Innovatus\TutorialCS\Bin\DayPilot.MonthPicker.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.office.interop.outlook.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\Microsoft.Office.Interop.Outlook.dll'.
+Warning: Unable to update auto-refresh reference 'telerik.web.ui.skins.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\Telerik.Web.UI.Skins.dll'.
+Warning: Unable to update auto-refresh reference 'htmlagilitypack.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\HtmlAgilityPack.dll'.
+Warning: Unable to update auto-refresh reference 'dotnetopenauth.aspnet.dll'. Cannot find assembly 'D:\Projects\BINCRM_Innovatus\MoseMaso_DN\bin\DotNetOpenAuth.AspNet.dll'.
+Warning: Unable to update auto-refresh reference 'telerik.web.device.detection.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\Telerik.Web.Device.Detection.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.practices.enterpriselibrary.security.cache.configuration.design.dll'. Cannot find assembly 'C:\Program Files (x86)\Microsoft Enterprise Library 4.0 - May 2008\Bin\Microsoft.Practices.EnterpriseLibrary.Security.Cache.Configuration.Design.dll'.
+Warning: Unable to update auto-refresh reference 'google.gdata.accesscontrol.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\Google.GData.AccessControl.dll'.
+Warning: Unable to update auto-refresh reference 'dotnetsources.web.ui.buttons.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\DotNetSources.Web.UI.Buttons.dll'.
+Warning: Unable to update auto-refresh reference 'dotnetopenauth.oauth.dll'. Cannot find assembly 'D:\Projects\BINCRM_Innovatus\MoseMaso_DN\bin\DotNetOpenAuth.OAuth.dll'.
+Warning: Unable to update auto-refresh reference 'aspnet.scriptmanager.jquery.ui.combined.dll'. Cannot find assembly 'D:\Projects\BINCRM_Innovatus\MoseMaso_DN\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.office.interop.excel.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\Microsoft.Office.Interop.Excel.dll'.
+Warning: Unable to update auto-refresh reference 'google.gdata.client.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\Google.GData.Client.DLL'.
+Warning: Unable to update auto-refresh reference 'system.spatial.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\System.Spatial.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.practices.objectbuilder.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\Microsoft.Practices.ObjectBuilder.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.practices.enterpriselibrary.data.sqlce.dll'. Cannot find assembly 'C:\Program Files (x86)\Microsoft Enterprise Library 4.0 - May 2008\Bin\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll'.
+Warning: Unable to update auto-refresh reference 'clspaymentgatewaydet.dll'. Cannot find assembly 'C:\Users\admin\Desktop\ClsPaymentGatewayDet.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.practices.enterpriselibrary.policyinjection.dll'. Cannot find assembly 'C:\Program Files (x86)\Microsoft Enterprise Library 4.0 - May 2008\Bin\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.dll'.
+Warning: Unable to update auto-refresh reference 'google.gdata.calendar.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\Google.GData.Calendar.dll'.
+Warning: Unable to update auto-refresh reference 'datasetexcel.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\DataSetExcel.dll'.
+Warning: Unable to update auto-refresh reference 'ajaxcontroltoolkit.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\AjaxControlToolkit.dll'.
+Warning: Unable to update auto-refresh reference 'proudmonkey.common.controls.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\ProudMonkey.Common.Controls.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.practices.enterpriselibrary.security.azman.dll'. Cannot find assembly 'C:\Program Files (x86)\Microsoft Enterprise Library 4.0 - May 2008\Bin\Microsoft.Practices.EnterpriseLibrary.Security.AzMan.dll'.
+Warning: Unable to update auto-refresh reference 'excelpackage.dll'. Cannot find assembly 'D:\Projects\BINCRM_Innovatus\MoseMaso_DN\bin\ExcelPackage.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.practices.enterpriselibrary.validation.dll'. Cannot find assembly 'C:\Program Files (x86)\Microsoft Enterprise Library 4.0 - May 2008\Bin\Microsoft.Practices.EnterpriseLibrary.Validation.dll'.
+Warning: Unable to update auto-refresh reference 'dotnetopenauth.openid.relyingparty.dll'. Cannot find assembly 'D:\Projects\BINCRM_Innovatus\MoseMaso_DN\bin\DotNetOpenAuth.OpenId.RelyingParty.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.vbe.interop.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\Microsoft.Vbe.Interop.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.practices.enterpriselibrary.validation.integration.wcf.dll'. Cannot find assembly 'C:\Program Files (x86)\Microsoft Enterprise Library 4.0 - May 2008\Bin\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.dll'.
+Warning: Unable to update auto-refresh reference 'google.gdata.extensions.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\Google.GData.Extensions.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.windowsazure.storage.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\Microsoft.WindowsAzure.Storage.dll'.
+Warning: Unable to update auto-refresh reference 'dotnetopenauth.openid.dll'. Cannot find assembly 'D:\Projects\BINCRM_Innovatus\MoseMaso_DN\bin\DotNetOpenAuth.OpenId.dll'.
+Warning: Unable to update auto-refresh reference 'ajaxmin.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\AjaxMin.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.practices.objectbuilder2.dll'. Cannot find assembly 'C:\Program Files (x86)\Microsoft Enterprise Library 4.0 - May 2008\Bin\Microsoft.Practices.ObjectBuilder2.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.practices.enterpriselibrary.common.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\Microsoft.Practices.EnterpriseLibrary.Common.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.data.odata.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\Microsoft.Data.OData.dll'.
+Warning: Unable to update auto-refresh reference 'dotnetopenauth.oauth.consumer.dll'. Cannot find assembly 'D:\Projects\BINCRM_Innovatus\MoseMaso_DN\bin\DotNetOpenAuth.OAuth.Consumer.dll'.
+Warning: Unable to update auto-refresh reference 'dotnetopenauth.core.dll'. Cannot find assembly 'D:\Projects\BINCRM_Innovatus\MoseMaso_DN\bin\DotNetOpenAuth.Core.dll'.
+Warning: Unable to update auto-refresh reference 'aspnet.scriptmanager.jquery.dll'. Cannot find assembly 'D:\Projects\BINCRM_Innovatus\MoseMaso_DN\bin\AspNet.ScriptManager.jQuery.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.practices.enterpriselibrary.security.dll'. Cannot find assembly 'C:\Program Files (x86)\Microsoft Enterprise Library 4.0 - May 2008\Bin\Microsoft.Practices.EnterpriseLibrary.Security.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.practices.enterpriselibrary.data.dll'. Cannot find assembly 'C:\Program Files (x86)\Microsoft Enterprise Library 4.0 - May 2008\Bin\Microsoft.Practices.EnterpriseLibrary.Data.dll'.
+Warning: Unable to update auto-refresh reference 'entityframework.dll'. Cannot find assembly 'D:\Projects\BINCRM_Innovatus\MoseMaso_DN\bin\EntityFramework.dll'.
+Warning: Unable to update auto-refresh reference 'office.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\office.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.practices.enterpriselibrary.policyinjection.callhandlers.dll'. Cannot find assembly 'C:\Program Files (x86)\Microsoft Enterprise Library 4.0 - May 2008\Bin\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.CallHandlers.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.practices.enterpriselibrary.security.cryptography.configuration.design.dll'. Cannot find assembly 'C:\Program Files (x86)\Microsoft Enterprise Library 4.0 - May 2008\Bin\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.Configuration.Design.dll'.
+Warning: Unable to update auto-refresh reference 'microsoft.data.edm.dll'. Cannot find assembly 'D:\Projects\BackUp\Bin\Microsoft.Data.Edm.dll'.
+Warning: Unable to update auto-refresh reference 'daypilot.dll'. Cannot find assembly 'D:\Projects\BINCRM_Innovatus\TutorialCS\Bin\DayPilot.dll'.
+Validating Web Site
+Building directory '/AppTheme/'.
+Building directory '/Calender/Auto/'.
+Building directory '/Calender/lib/'.
+Building directory '/Calender/'.
+Building directory '/JQuery/'.
+Building directory '/js/'.
+Building directory '/'.
+
+Validation Complete
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
